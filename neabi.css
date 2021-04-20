@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(255, 241, 161);
+}
+
+.cabecalho{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 5px;
+    background-color: #53d2e9;
+    border-bottom: solid #5095e6;
+}
+
+.imagemCabecalho{
+
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.fonte{
+    display: inline-block;
+    position: absolute;
+    font-size: 12px;
+    color: white;
+    font-style: italic;
+    margin-top: 320px;
+    margin-left: 10%;
+}
+
+.titulos{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.paragrafos{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    text-align: justify;
+
+}
+.menu{
+    position: absolute;
+    width: 100%;
+    top: 54%;
+    text-align: center;
+    background-color: #53d2e9;
+}
+
+.opcoes{
+    position: relative;
+    display: inline;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 80px;
+    margin-left: 80px;
+
+}
+
+
+.itemMenu {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.itemMenu:hover{
+    color: rgb(241, 205, 0);
+}
+
+.rodape{
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    background-color: #53d2e9;
+    padding-top: 10px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}

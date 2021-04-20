@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(255, 241, 161);
+}
+
+.cabecalho{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 5px;
+    background-color: #53d2e9;
+    border-bottom: solid #5095e6;
+}
+
+
+.imagem{
+    width: 30%;
+    position: absolute;
+    margin-left: 110px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.imglado{
+    display: inline-block;
+    width: 20%;
+    position: absolute;
+    margin-top: 80px;
+    margin-right: 10%;
+}
+
+.imglado2{
+    display: inline-block;
+    width: 20%;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 5%;
+}
+
+
+.fonte{
+    display: inline-block;
+    position: absolute;
+    font-size: 10px;
+    font-style: italic;
+    margin-top: 480px;
+    margin-left: 6%;
+}
+
+.fonte2{
+    display: inline-block;
+    position: absolute;
+    font-size: 10px;
+    font-style: italic;
+    margin-top: 480px;
+    margin-left: 1160px;
+}
+
+
+.profes{
+    margin: 0 auto;
+    text-align: center;
+    width: 940px;
+
+}
+
+.profes li{
+    vertical-align: top;
+    border: #53d2e9;
+    border-radius: 10px;
+    border-width: 5px;
+    padding: 5px;
+    border-style: groove;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.profes li:hover{
+    border-color: #5095e6;
+
+    ;
+
+}
+
+.profes h2{
+    vertical-align: top;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profes li:hover h2{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.profes p{
+    font-size: 18px;
+    margin-top: 10px;
+    width: 200px;
+    padding: 5px 0;
+    text-align: justify;
+
+}
+a{
+    color: #5095e6;
+    font-weight: bold;
+}
+
+
+.rodape{
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    background-color: #53d2e9;
+    padding-top: 10px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
