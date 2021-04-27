@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 241, 161);
+    background-color: #C9A7EE;
 }
 
 .cabecalho{
@@ -7,8 +7,8 @@ body{
     font-weight: bolder;
     text-align: center;
     padding: 5px;
-    background-color: #53d2e9;
-    border-bottom: solid #5095e6;
+    background-color: #5095E6;
+
 }
 
 .imagemCabecalho{
@@ -50,7 +50,8 @@ body{
     width: 100%;
     top: 46%;
     text-align: center;
-    background-color: #53d2e9;
+    background-color: #5095E6;
+
 }
 
 .opcoes{
@@ -82,7 +83,7 @@ body{
     font-size: 15px;
     text-align: center;
     color: black;
-    background-color: #53d2e9;
+    background-color: #5095E6;
     padding-top: 10px;
     bottom: 0px;
     position: fixed;
