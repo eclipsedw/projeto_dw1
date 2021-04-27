@@ -29,7 +29,7 @@ body{
 }
 
 .titulos{
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
     font-size: 25px;
     font-weight: bold;
@@ -48,7 +48,7 @@ body{
 .menu{
     position: absolute;
     width: 100%;
-    top: 54%;
+    top: 46%;
     text-align: center;
     background-color: #53d2e9;
 }
