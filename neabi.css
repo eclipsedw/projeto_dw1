@@ -29,7 +29,7 @@ body{
 }
 
 .titulos{
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
     font-size: 25px;
     font-weight: bold;
@@ -76,7 +76,7 @@ body{
 }
 
 .itemMenu:hover{
-    color: rgb(241, 205, 0);
+    color: #9947EB;
 }
 
 .rodape{
