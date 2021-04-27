@@ -8,51 +8,11 @@
     margin-left: 8%;
 }
 
-.titulos{
-    margin-top: 30px;
-    margin-bottom: 10px;
-    padding: 5px;
-    font-size: 25px;
-    border-bottom:solid #5095e6;
-    font-weight: bold;
-    text-align: center;
-    background-color: #53d2e9;
-}
-
-.paragrafos{
-    font-size: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding: 10px;
-    text-align: justify;
-
-}
-
-.paragrafo_especial{
-    font-size: 20px;
-    margin-left: 540px;
-    margin-right: 100px;
-    margin-top: 90px;
-    margin-bottom: 60px;
-    padding: 10px;
-    text-align: justify;
-}
-
-.paragrafo_especial2{
-    font-size: 20px;
-    margin-left: 540px;
-    margin-right: 100px;
-    margin-top: 5px;
-    margin-bottom: 60px;
-    padding: 10px;
-    text-align: justify;
-}
-
 .imagem{
     width: 30%;
-    position: absolute;
-    margin-left: 110px;
-    border-radius: 5px;
-    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
 }
 
