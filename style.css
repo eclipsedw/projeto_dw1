@@ -23,7 +23,7 @@ body {
     text-align: center;
 }
 
-.img_1 {
+.img_c {
     padding-top: 20px;
     width: 100%;
 }
@@ -63,4 +63,26 @@ body {
 
 .ativo:hover {
     color: #9947EB;
+}
+
+.rodape {
+    background-color: #5095E6;
+    height: 20px;
+    text-align: center;
+    padding-top: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+b {
+    font-weight: bold;
+    color: #3A20B6;
+}
+
+.titulo {
+    color: #9947EB;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
 }
