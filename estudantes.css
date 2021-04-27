@@ -62,8 +62,8 @@ body{
     font-size: 20px;
     margin-left: 540px;
     margin-right: 100px;
-    margin-top: 5px;
-    margin-bottom: 20px;
+    margin-top: 90px;
+    margin-bottom: 60px;
     padding: 10px;
     text-align: justify;
 }
@@ -83,7 +83,7 @@ body{
     position: absolute;
     margin-left: 110px;
     border-radius: 5px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .rodape{
