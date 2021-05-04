@@ -1,17 +1,3 @@
-body{
-    background-color: rgb(255, 241, 161);
-}
-
-.cabecalho{
-    font-size: 30px;
-    font-weight: bolder;
-    text-align: center;
-    padding: 5px;
-    background-color: #53d2e9;
-    border-bottom: solid #5095e6;
-}
-
-
 .imagem{
     width: 30%;
     position: absolute;
@@ -111,14 +97,3 @@ a{
     font-weight: bold;
 }
 
-
-.rodape{
-    font-size: 15px;
-    text-align: center;
-    color: black;
-    background-color: #53d2e9;
-    padding-top: 10px;
-    bottom: 0px;
-    position: fixed;
-    width: 100%;
-}
