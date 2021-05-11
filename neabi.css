@@ -1,72 +1,27 @@
-
-.fonte{
+.quem_somos {
+    margin: 0 0 0 15px;
+    position: absolute;
     display: inline-block;
-    position: absolute;
-    font-size: 12px;
-    color: white;
-    font-style: italic;
-    margin-top: 320px;
-    margin-left: 10%;
-}
-
-.titulos{
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.paragrafos{
     font-size: 20px;
-    margin-bottom: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding: 10px;
-    text-align: justify;
-
-}
-.menu{
-    position: absolute;
-    width: 100%;
-    top: 46%;
-    text-align: center;
-    background-color: #5095E6;
-
+    font-weight: bold;
+    color: #3A20B6;
 }
 
-.opcoes{
-    position: relative;
-    display: inline;
-    font-size: 18px;
-    text-align: center;
-    margin-right: 80px;
-    margin-left: 80px;
-
-}
-
-
-.itemMenu {
+.link_neabi {
     text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
-    font-weight: bold;
-
 }
 
-.itemMenu:hover{
+b:hover {
     color: #9947EB;
 }
 
-.rodape{
+.rodape {
     font-size: 15px;
-    text-align: center;
-    color: black;
     background-color: #5095E6;
+    text-align: center;
     padding-top: 10px;
+    padding-bottom: 10px;
     bottom: 0px;
-    position: fixed;
     width: 100%;
+    position: absolute;
 }

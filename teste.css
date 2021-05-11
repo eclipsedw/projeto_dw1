@@ -8,19 +8,47 @@ body {
     padding-top: 10px;
 }
 
-nav, .dropdown {
+nav {
     overflow: hidden;
+    margin-top: 10px;
 }
   
-nav a, .dropdown, .dropbtn {
+nav a {
     float: left;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 0 0 0 15px;
     text-decoration: none;
-    text-transform: uppercase;
+    font-weight: bold;
+}
+  
+.quem_somos {
+    margin: 0 0 0 15px;
+    position: absolute;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+  
+.quem_somos_menu {
+    display: none;
+    position: absolute;
+    background-color: #758183;
     color: black;
     font-weight: bold;
-    font-size: 20px;
-    margin: 0 0 0 15px;
-    background-color: inherit;
+    width: 150px;
+    box-shadow: 0px 10px 10px 0px #5f696b;
+    padding: 12px 16px;
+}
+  
+.quem_somos:hover{
+    color: #e3b85d;
+}
+
+.quem_somos:hover .quem_somos_menu {
+    display:block;
 }
 
 .ativo {
@@ -29,15 +57,6 @@ nav a, .dropdown, .dropbtn {
     color: #3A20B6;
     font-weight: bold;
     font-size: 20px;
-}
-
-.dropdown .dropbtn {
-    border: none;
-    outline: none;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
 }
 
 .img_header {
@@ -56,28 +75,3 @@ nav a, .dropdown, .dropbtn {
 .fonte_link {
     text-decoration: none;
 }
-
-
-nav a:hover, .fonte_link:hover{
-    color: #9947EB;
-}
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }

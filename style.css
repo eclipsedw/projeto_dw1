@@ -16,23 +16,41 @@ body {
 .cabecalho {
     background-color: #5095E6;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
-
-.item_menu {
-    display: inline;
-    margin: 0 0 0 15px;
+  
+nav {
+    overflow: hidden;
 }
-
-.link_menu {
+  
+nav a {
+    float: left;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 0 0 0 15px;
     text-decoration: none;
+    font-weight: bold;
     text-transform: uppercase;
+}
+  
+.quem_somos {
+    margin: 0 0 0 15px;
+    position: absolute;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+  
+.quem_somos_menu {
+    display: none;
+    position: absolute;
+    background-color: #758183;
     color: black;
     font-weight: bold;
-    font-size: 20px;
-}
-
-.link_menu:hover {
-    color: #9947EB;
+    width: 150px;
+    padding: 12px 16px;
 }
 
 .ativo {
@@ -42,65 +60,39 @@ body {
     font-weight: bold;
     font-size: 20px;
 }
-
-.ativo:hover {
+  
+nav a:hover, .fonte_link:hover, .quem_somos:hover{
     color: #9947EB;
 }
 
-.caixa {
-    position: relative;
-    text-align: center;
+.quem_somos:hover .quem_somos_menu {
+    display:block;
 }
 
-.img_c {
-    padding-top: 20px;
+.img_header {
     width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
-.fonte1 {
-    font-size: 10px;
-    font-style: italic;
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
+.fonte_header {
+    text-align: right;
+    text-transform: uppercase;
+    padding-right: 5px;
 }
 
-.quem_somos {
-    margin: 0 0 0 15px;
-    position: relative;
-    display: inline-block;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-  }
-  
-  .quem_somos_menu {
-    display: none;
-    position: absolute;
-    background-color: #758183;
-    color: black;
-    font-weight: bold;
-    width: 150px;
-    box-shadow: 0px 10px 10px 0px #5f696b;
-    padding: 12px 16px;
-  }
-  
-  .quem_somos:hover{
-    color: #e3b85d;
-  }
-
-  .quem_somos:hover .quem_somos_menu {
-    display: inline-block;
-  }
+.fonte_link {
+    text-decoration: none;
+}
 
 .rodape {
+    font-size: 15px;
     background-color: #5095E6;
-    height: 20px;
     text-align: center;
     padding-top: 10px;
-    bottom: 0;
+    padding-bottom: 10px;
+    bottom: 0px;
     width: 100%;
-    position: fixed;
 }
 
 b {
@@ -113,11 +105,11 @@ b {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .texto {
     font-size: 20px;
-    margin: 10px 10px 10px 10px;
+    margin: 20px 50px 10px 50px;
 }
 
