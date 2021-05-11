@@ -1,0 +1,83 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #C9A7EE;
+}
+
+.cabecalho {
+    background-color: #5095E6;
+    padding-top: 10px;
+}
+
+nav, .dropdown {
+    overflow: hidden;
+}
+  
+nav a, .dropdown, .dropbtn {
+    float: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 0 15px;
+    background-color: inherit;
+}
+
+.ativo {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3A20B6;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.img_header {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.fonte_header {
+    text-align: right;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.fonte_link {
+    text-decoration: none;
+}
+
+
+nav a:hover, .fonte_link:hover{
+    color: #9947EB;
+}
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }

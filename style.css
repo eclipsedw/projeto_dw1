@@ -18,6 +18,35 @@ body {
     padding-top: 10px;
 }
 
+.item_menu {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.link_menu {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.link_menu:hover {
+    color: #9947EB;
+}
+
+.ativo {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3A20B6;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ativo:hover {
+    color: #9947EB;
+}
+
 .caixa {
     position: relative;
     text-align: center;
@@ -47,7 +76,7 @@ body {
   
   .quem_somos_menu {
     display: none;
-    position: relative;
+    position: absolute;
     background-color: #758183;
     color: black;
     font-weight: bold;
@@ -61,37 +90,8 @@ body {
   }
 
   .quem_somos:hover .quem_somos_menu {
-    display:block;
+    display: inline-block;
   }
-
-.item_menu {
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-.link_menu {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.link_menu:hover {
-    color: #9947EB;
-}
-
-.ativo {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #3A20B6;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.ativo:hover {
-    color: #9947EB;
-}
 
 .rodape {
     background-color: #5095E6;
