@@ -1,0 +1,22 @@
+aside {
+    display: inline;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin-right: 5px;
+}
+
+.img_texto {
+    width: 95%;
+}
+
+.img_texto:hover {
+    width: 100%;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.fonte2 {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
