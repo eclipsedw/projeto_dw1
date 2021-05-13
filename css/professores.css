@@ -51,7 +51,7 @@
 
 .profes li{
     vertical-align: top;
-    border: #53d2e9;
+    border: #5095e6;
     border-radius: 10px;
     border-width: 5px;
     padding: 5px;
@@ -65,7 +65,8 @@
 }
 
 .profes li:hover{
-    border-color: #5095e6;
+    
+    border-color: #53d2e9;
 
     ;
 
