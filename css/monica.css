@@ -22,6 +22,12 @@
     box-shadow: 10px 10px 10px grey;
 }
 
+.img_poderes {
+    display: block;
+    margin: 15px auto;
+    width: 40%;
+}
+
 .fonte2 {
     font-size: 15px;
     text-align: center;
@@ -29,4 +35,8 @@
 
 a {
     text-decoration: none;
+}
+
+.poderes {
+    margin-bottom: 10px;
 }
