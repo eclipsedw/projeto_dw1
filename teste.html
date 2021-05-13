@@ -3,54 +3,68 @@
 <html lang="pt-br">
 
     <head>
-        <meta charset="utf-8"/>
-        <title>teste</title>
-        <link rel="stylesheet" href="reset.css"/>
-        <link rel="stylesheet" href="teste.css"/>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/teste.css">
     </head>
 
     <body>
-        <header class="cabecalho">
+        <header class="cabecalho"> 
             <nav>
                 <a class="ativo" href="inicio.html">Início</a>
                 <a href="monica.html">Monica Rambeau</a>
                 <a href="analise.html">Análise Crítica</a>
                 <a href="contato.html">Contato</a>
-                <div class="dropdown">
-                    <button class="dropbtn">Dropdown 
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
+                <div class="quem_somos">
+                    <span>QUEM SOMOS</span>
+                    <div class="quem_somos_menu">
+                        <p>
+                            <a href="neabi.html">NEABI</a>
+                            <a href="professores.html">Professores</a>
+                            <a href="estudantes.html">Estudantes</a>
+                        </p>
+                    </div>
                 </div>
             </nav>
 
-            <img class="img_header" src="header.jpg">
+            <img class="img_header" src="imagens/header.jpg">
             <p class="fonte_header">
                 Fonte: <a class="fonte_link" href="https://www.looper.com/203635/the-untold-truth-of-monica-rambeau/">Looper</a>, 2020
             </p>
-        </header>
+        </header> 
 
         <main>
-            <div class="navbar">
-                <a href="#home">Home</a>
-                <a href="#news">News</a>
-                <div class="dropdown">
-                  <button class="dropbtn">Dropdown 
-                    <i class="fa fa-caret-down"></i>
-                  </button>
-                  <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+            <div class="row">
+                <div class="column">
+                  <div class="card">
+                    <img src="imagens/edi.jpg" style="width:100%">
+                    <div class="container">
+                      <b>Edi Carlos Marques</b>
+                      <p>
+                        Professor do Instituto Federal formado em Filosofia, especialista em filosofia contemporânea. 
+                        Tem mestrado em educação escolar, além de cursar bacharelado em direito.
+                      <p><button class="button">Lattes</button></p>
+                    </div>
                   </div>
-                </div> 
-              </div>
+                </div>
               
-              <h3>Dropdown Menu inside a Navigation Bar</h3>
-              <p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+                <div class="column">
+                  <div class="card">
+                    <img src="imagens/fabio.jpg" style="width:100%">
+                    <div class="container">
+                      <b>Fábio Luiz Faria</b>
+                      <p>
+                        Professor do Instituto Federal formado em Engenharia da Computação, com especialização em 
+                        docência em ciencia e tecnologia da informação, além de licenciatura 
+                        pedagógica em história.
+                      </p>
+                      <p><button class="button">Contact</button></p>
+                    </div>
+                  </div>
+                </div>
         </main>
+
     </body>
+
 </html>

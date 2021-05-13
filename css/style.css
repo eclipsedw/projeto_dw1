@@ -80,7 +80,7 @@ nav a:hover, .fonte_link:hover, .quem_somos:hover{
 .fonte_header {
     text-align: right;
     text-transform: uppercase;
-    padding-right: 5px;
+    padding-right: 10px;
 }
 
 .fonte_link {
@@ -112,7 +112,7 @@ b {
 
 .texto {
     font-size: 20px;
-    margin: 20px 50px 10px 50px;
+    margin: 20px 50px 20px 50px;
 }
 
 

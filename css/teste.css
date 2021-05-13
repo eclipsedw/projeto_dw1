@@ -1,77 +1,41 @@
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #C9A7EE;
+main {
+    margin: 15px auto;
 }
 
-.cabecalho {
-    background-color: #5095E6;
-    padding-top: 10px;
-}
-
-nav {
-    overflow: hidden;
-    margin-top: 10px;
-}
-  
-nav a {
+.column {
     float: left;
-    font-size: 20px;
-    color: black;
-    text-align: center;
-    padding: 0 0 0 15px;
-    text-decoration: none;
-    font-weight: bold;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
 }
   
-.quem_somos {
-    margin: 0 0 0 15px;
-    position: absolute;
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 0 16px;
+}
+  
+ 
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+  .button {
+    border: none;
+    outline: 0;
     display: inline-block;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-}
-  
-.quem_somos_menu {
-    display: none;
-    position: absolute;
-    background-color: #758183;
-    color: black;
-    font-weight: bold;
-    width: 150px;
-    box-shadow: 0px 10px 10px 0px #5f696b;
-    padding: 12px 16px;
-}
-  
-.quem_somos:hover{
-    color: #e3b85d;
-}
-
-.quem_somos:hover .quem_somos_menu {
-    display:block;
-}
-
-.ativo {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #3A20B6;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.img_header {
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
-.fonte_header {
-    text-align: right;
-    text-transform: uppercase;
-    padding-bottom: 5px;
-    padding-right: 5px;
-}
-
-.fonte_link {
-    text-decoration: none;
-}
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
