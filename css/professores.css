@@ -38,9 +38,7 @@
     text-transform: uppercase;
     margin-top: 480px;
     margin-left: 78.5%;
-    /*
-    margin-left: 1160px;
-    */
+  
 }
 
 
@@ -58,12 +56,13 @@
     border-width: 5px;
     padding: 5px;
     border-style: groove;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     margin-right: 40px;
     margin-left: 40px;
     display: inline-block;
     font-size: 20px;
+    height: 510px;
 }
 
 .profes li:hover{
@@ -90,7 +89,7 @@
 .profes p{
     font-size: 20px;
     margin-top: 10px;
-    width: 250px;
+    width: 240px;
     padding: 5px;
     text-align: justify;
 }
