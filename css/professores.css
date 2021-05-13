@@ -1,9 +1,8 @@
 .imagem{
-    width: 30%;
-    position: absolute;
-    margin-left: 110px;
-    border-radius: 5px;
-    margin-top: 15px;
+    width: 230px;
+    height: 230px;
+    border-radius: 10px;
+    margin-bottom:  15px; ;
 }
 
 .imglado{
@@ -19,26 +18,29 @@
     width: 20%;
     position: absolute;
     margin-top: 80px;
-    margin-left: 5%;
+    margin-left: 1%;
 }
 
 
 .fonte{
     display: inline-block;
     position: absolute;
-    font-size: 10px;
-    font-style: italic;
+    font-size: 15px;
+    text-transform: uppercase;
     margin-top: 480px;
-    margin-left: 6%;
+    margin-left: 1%;
 }
 
 .fonte2{
     display: inline-block;
     position: absolute;
-    font-size: 10px;
-    font-style: italic;
+    font-size: 15px;
+    text-transform: uppercase;
     margin-top: 480px;
+    margin-left: 78.5%;
+    /*
     margin-left: 1160px;
+    */
 }
 
 
@@ -61,7 +63,7 @@
     margin-right: 40px;
     margin-left: 40px;
     display: inline-block;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .profes li:hover{
@@ -86,10 +88,10 @@
 }
 
 .profes p{
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 10px;
-    width: 200px;
-    padding: 5px 0;
+    width: 250px;
+    padding: 5px;
     text-align: justify;
 }
 
