@@ -1,9 +1,15 @@
+.quem_somos {
+    margin: 0 0 0 15px;
+    position: absolute;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3A20B6;
+}
 
-.imagem{
-    width: 30%;
+.img_estudantes {
+    width: 50%;
+    margin: 15px auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
 }
 
