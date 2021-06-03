@@ -46,7 +46,7 @@
 
 .profes li{
     vertical-align: top;
-    border: #5095e6;
+    border: #9947EB;
     border-radius: 10px;
     border-width: 5px;
     padding: 5px;
@@ -62,7 +62,7 @@
 
 .profes li:hover{
     
-    border-color: #53d2e9;
+    border-color: #3A20B6;
 
     ;
 
@@ -96,4 +96,13 @@
     font-size: 20px;
     font-weight: bold;
     color: #3A20B6;
+}
+
+.fonte_lattes {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fonte_lattes:hover {
+    color: #9947EB;
 }
