@@ -36,9 +36,70 @@
         </header> 
 
         <main>
-
+            <form action="/gravarDadosContato.php" method="POST">
+                <div class="formulario">
+                    <label for="nomeesobrenome">Nome e sobrenome</label>
+                    <input class="input_padrao" type="text" id="nomeesobrenome" required>
+                    
+                    <label for="email">E-mail</label>
+                    <input class="input_padrao" type="email" id="email" required placeholder="seuemail@dominio.com">
+        
+                    <label for="telefone">Telefone</label>
+                    <input class="input_padrao" type="tel" id="telefone" required placeholder="(XX) XXXXX-XXXX">
+        
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" cols="70" rows="10" required></textarea>
+                </div>  
+                
+                <div class="formulario">
+                    <fieldset>
+                        <br>
+                        <legend>
+                            <p>Como prefere o nosso contato?</p>
+                        </legend>
+                        <label for="radio-email">
+                            E-mail
+                            <input type="radio" name="contato" value="email" id="radio-email">
+                        </label>
+        
+                        <label for="radio-telefone">
+                            Telefone
+                            <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                        </label>
+        
+                        <label for="radio-zap">
+                            Whatsapp
+                            <input type="radio" name="contato" value="zap" id="radio-zap" checked>
+                        </label>
+                    </fieldset>
+                </div>
+                
+                <div class="formulario">
+                    <fieldset>
+                        <legend>
+                            <p>Em qual período prefere o nosso contato?</p>
+                        </legend>
+                        <select>
+                            <option>Manhã</option>
+                            <option>Tarde</option>     
+                            <option>Noite</option>               
+                        </select>
+                    </fieldset>
+                </div>
+                
+                <div class="formulario">
+                    <p>Gostaria de receber nossas novidades por e-mail?
+                        <label class="checkbox"><input type="checkbox" checked></label>
+                    </p>
+                </div>
+    
+                <input type="submit" value="Enviar formulário" class="enviar">
+            </form>
         </main>
 
+        <footer class="rodape">
+            &copy; Ana Paula Recalde, Letícia de Andrade, Mariana Ramires - 2021
+        </footer>
     </body>
 
 </html>
