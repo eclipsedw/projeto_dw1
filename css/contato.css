@@ -11,12 +11,15 @@ form {
 form label, form input, form p {
     display: block;
     font-size: 20px;
-    margin: 0 10px;
+    margin: 10px 10px;
 }
 
 form input {
     border: none;
     border-radius: 5px;
+    background-color: #9947EB;
+    color: #C9A7EE;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
 }
 
 .formulario {
@@ -45,6 +48,7 @@ form input {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
 }
 
 .enviar:hover {
@@ -56,6 +60,97 @@ textarea {
     margin: 0 0 20px 0;
     padding: 10px 25px;
     font-size: 20px;
-    border:none;
+    border: none;
     border-radius: 5px;
+    background-color: #9947EB;
+    color: #C9A7EE;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+  
+.select_box {
+    margin: 0 0 20px 0;
+    padding: 10px 25px;
+}
+
+.select_box select {
+    background-color: #9947EB;
+    color: white;
+    padding: 12px;
+    width: 250px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+  
+.select_box:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+  
+.select_box select option {
+    padding: 30px;
+}
+
+::placeholder {
+    color: #C9A7EE;
+}
+
+.checkbox_box {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkbox_box input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.checkbox_box input:checked ~ .checkmark {
+    background-color: #9947EB;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+.checkbox_box input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+.checkbox_box .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }

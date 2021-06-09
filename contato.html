@@ -15,7 +15,7 @@
             <nav>
                 <a href="inicio.html">Início</a>
                 <a href="monica.html">Monica Rambeau</a>
-                <a href="analise.html">Análise Crítica</a>
+                <a href="analise.html">Filosofando sobre a personagem</a>
                 <a class="ativo" href="contato.html">Contato</a>
                 <div class="quem_somos">
                     <span>QUEM SOMOS</span>
@@ -45,7 +45,7 @@
                     <input class="input_padrao" type="email" id="email" required placeholder="seuemail@dominio.com">
         
                     <label for="telefone">Telefone</label>
-                    <input class="input_padrao" type="tel" id="telefone" required placeholder="(XX) XXXXX-XXXX">
+                    <input class="input_padrao" type="tel" id="telefone" placeholder="(XX) XXXXX-XXXX">
         
                     <label for="mensagem">Mensagem</label>
                     <textarea id="mensagem" cols="70" rows="10" required></textarea>
@@ -53,48 +53,45 @@
                 
                 <div class="formulario">
                     <fieldset>
-                        <br>
                         <legend>
                             <p>Como prefere o nosso contato?</p>
                         </legend>
-                        <label for="radio-email">
-                            E-mail
-                            <input type="radio" name="contato" value="email" id="radio-email">
-                        </label>
-        
-                        <label for="radio-telefone">
-                            Telefone
-                            <input type="radio" name="contato" value="telefone" id="radio-telefone">
-                        </label>
-        
-                        <label for="radio-zap">
-                            Whatsapp
-                            <input type="radio" name="contato" value="zap" id="radio-zap" checked>
-                        </label>
+                        <div class="select_box">
+                            <select>
+                                <option>E-mail</option>
+                                <option>Telefone</option>     
+                                <option>Whatsapp</option>               
+                            </select>
+                        </div>
                     </fieldset>
                 </div>
-                
+
                 <div class="formulario">
                     <fieldset>
                         <legend>
                             <p>Em qual período prefere o nosso contato?</p>
                         </legend>
-                        <select>
-                            <option>Manhã</option>
-                            <option>Tarde</option>     
-                            <option>Noite</option>               
-                        </select>
+                        <div class="select_box">
+                            <select>
+                                <option>Manhã</option>
+                                <option>Tarde</option>     
+                                <option>Noite</option>               
+                            </select>
+                        </div>
                     </fieldset>
                 </div>
-                
+
                 <div class="formulario">
-                    <p>Gostaria de receber nossas novidades por e-mail?
-                        <label class="checkbox"><input type="checkbox" checked></label>
-                    </p>
+                    <label class="checkbox_box">Gostaria de receber mais informações por e-mail
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
                 </div>
     
                 <input type="submit" value="Enviar formulário" class="enviar">
             </form>
+
+            
         </main>
 
         <footer class="rodape">
