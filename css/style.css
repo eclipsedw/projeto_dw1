@@ -85,7 +85,10 @@ nav a:hover, .fonte_link:hover, .quem_somos:hover{
 
 .fonte_link {
     text-decoration: none;
+    color: #3A20B6;
 }
+
+
 
 .rodape {
     font-size: 15px;
@@ -108,11 +111,26 @@ b {
     font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .texto {
     font-size: 20px;
     margin: 20px 50px 20px 50px;
+}
+
+.foto_wrap {
+    margin: 10px;
+    float: right;
+}
+
+.gif_fanpop {
+    width: 100%;
+}
+
+.fonte_wrap {
+    font-size: 15px;
+    text-align: center;
 }
 
 
