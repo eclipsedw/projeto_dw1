@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="css/contato.css">
         <title>Contato - Heroínas e Heróis Negras/os e Indígenas</title>
         <link rel="icon" href="imagens/icon.jpg">
+        <script src="js/contato.js"></script>
     </head>
 
     <body>
@@ -36,19 +37,20 @@
         </header> 
 
         <main>
-            <form action="/gravarDadosContato.php" method="POST">
+            <form id="formContato" action="/gravarDadosContato.php" method="POST" onsubmit="return validarCampos()">
                 <div class="formulario">
+                    <div class="div_mensagem"><span id="msgErro"></span></div>
                     <label for="nomeesobrenome">Nome e sobrenome</label>
-                    <input class="input_padrao" type="text" id="nomeesobrenome" required>
+                    <input class="input_padrao" type="text" id="nomeesobrenome" name="nomeesobrenome">
                     
                     <label for="email">E-mail</label>
-                    <input class="input_padrao" type="email" id="email" required placeholder="seuemail@dominio.com">
+                    <input class="input_padrao" type="email" id="email" name="email" placeholder="seuemail@dominio.com">
         
                     <label for="telefone">Telefone</label>
-                    <input class="input_padrao" type="tel" id="telefone" placeholder="(XX) XXXXX-XXXX">
+                    <input class="input_padrao" type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX">
         
                     <label for="mensagem">Mensagem</label>
-                    <textarea id="mensagem" cols="70" rows="10" required></textarea>
+                    <textarea id="mensagem" cols="70" rows="10"></textarea>
                 </div>  
                 
                 <div class="formulario">
@@ -56,7 +58,7 @@
                         <legend>
                             <p>Como prefere o nosso contato?</p>
                         </legend>
-                        <div class="select_box">
+                        <div class="select_box" id="contato">
                             <select>
                                 <option>E-mail</option>
                                 <option>Telefone</option>     
@@ -71,7 +73,7 @@
                         <legend>
                             <p>Em qual período prefere o nosso contato?</p>
                         </legend>
-                        <div class="select_box">
+                        <div class="select_box" id="periodo">
                             <select>
                                 <option>Manhã</option>
                                 <option>Tarde</option>     

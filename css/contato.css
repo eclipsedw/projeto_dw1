@@ -32,6 +32,7 @@ form input {
     margin: 0 0 20px 0;
     padding: 10px 25px;
     width: 50%;
+    outline: none;
 }
 
 .checkbox {
@@ -65,6 +66,7 @@ textarea {
     background-color: #9947EB;
     color: #C9A7EE;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    outline: none;
 }
   
 .select_box {
@@ -153,4 +155,11 @@ textarea {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+}
+
+.div_mensagem {
+    font-style: italic;
+    color: #3A20B6;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
