@@ -30,18 +30,6 @@ function validarCampos () {
         ret = false;
     }
 
-    if(form.contato.selectedIndex < 0) {
-        msgErro.innerHTML = msgErro.innerHTML + "Por favor, selecione o campo contato! <br>";
-        form.periodo.focus();
-        ret = false;
-    }
-
-    if(form.periodo.selectedIndex < 0) {
-        msgErro.innerHTML = msgErro.innerHTML + "Por favor, selecione o campo período! <br>";
-        form.periodo.focus();
-        ret = false;
-    }
-
     console.log("Nome e Sobrenome: " + form.nomeesobrenome);
     return ret;
 }
